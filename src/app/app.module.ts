@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PdfEditComponent } from './pdf-edit/pdf-edit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PdfEditComponent
   ],
   imports: [
     BrowserModule,
